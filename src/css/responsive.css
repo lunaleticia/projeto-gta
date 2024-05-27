@@ -168,6 +168,8 @@
 
     .home .informacoes .lista-de-jogos {
         margin-bottom: 25%;
+        width: 25%;
+        height: auto;
     }
 
     .btn-comprar,
@@ -240,8 +242,8 @@
     }
 
     .home .informacoes .lista-de-jogos {
-        width: 100px;
-        height: 90px;
+        width: 20%;
+        height: auto;
     }
 
     .btn-comprar,
@@ -319,8 +321,8 @@
     }
 
     .home .informacoes .lista-de-jogos {
-        width: 100px;
-        height: 90px;
+        width: 20%;
+        height: auto;
         margin-top: 50px;
     }
 
@@ -400,8 +402,8 @@
     }
 
     .home .informacoes .lista-de-jogos {
-        width: 100px;
-        height: 90px;
+        width: 20%;
+        height: auto;
         margin-top: 50px;
     }
 
