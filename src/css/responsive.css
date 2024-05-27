@@ -1,0 +1,424 @@
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 0 40px;
+    }
+
+    .home .informacoes {
+        padding: 60px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 45px;
+    }
+
+    .btn-comprar,
+    .btn-plataforma {
+        font-size: 25px;
+        padding: 15px 30px;
+    }
+
+    .btn-comprar {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .compre-ja .cartao {
+        width: 70%;
+        padding: 60px;
+    }
+
+    .compre-ja .titulo {
+        font-size: 40px;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .cabecalho {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .cabecalho .menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home .informacoes {
+        padding: 40px;
+        max-width: 90%;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 35px;
+    }
+
+    .btn-comprar,
+    .btn-plataforma {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .btn-comprar {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .compre-ja .cartao {
+        width: 90%;
+        padding: 40px;
+    }
+
+    .compre-ja .titulo {
+        font-size: 40px;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 30px;
+    }
+
+    .home .imagem-fundo {
+        background: url('./src/img/bg-main.png') no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .home .informacoes {
+        padding: 20px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 31px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 20px;
+    }
+
+    .btn-comprar,
+    .btn-plataforma {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .btn-comprar {
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+    .compre-ja .cartao {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .compre-ja .titulo {
+        font-size: 40px;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 25px;
+    }
+
+    .home .imagem-fundo {
+        background: url('./src/img/bg-main.png') no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .cabecalho .menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .home .informacoes {
+        padding: 10px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 31px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 18px;
+    }
+
+    .home .informacoes .lista-de-jogos {
+        margin-bottom: 150px;
+    }
+
+    .btn-comprar,
+    .btn-plataforma {
+        font-size: 25px;
+        padding: 15px;
+    }
+
+    .btn-comprar {
+        display: block;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+
+    .compre-ja .cartao {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .compre-ja .titulo {
+        font-size: 30px;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 20px;
+    }
+
+    .home .imagem-fundo {
+        background: url('./src/img/bg-main.png') no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .cabecalho {
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .cabecalho .logo img {
+        width: 22px;
+    }
+
+    .cabecalho .logo .logo-gtav {
+        width: 140px;
+    }
+
+    .cabecalho .menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .cabecalho .menu li a {
+        font-size: 13px;
+    }
+
+    .home .informacoes {
+        padding: 5px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 20px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 13px;
+    }
+
+    .home .informacoes .lista-de-jogos {
+        max-width: 80px;
+    }
+
+    .btn-comprar,
+    .btn-plataforma {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .btn-comprar {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .compre-ja .cartao {
+        padding: 10px;
+        width: 120%;
+    }
+
+    .compre-ja .titulo {
+        font-size: 30px;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 18px;
+    }
+
+    .home .imagem-fundo {
+        background: url('./src/img/bg-main.png') no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 390px) {
+    .cabecalho {
+        padding: 14px;
+    }
+
+    .cabecalho .logo img {
+        width: 22px;
+    }
+
+    .cabecalho .logo .logo-gtav {
+        width: 140px;
+    }
+
+    .cabecalho .menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1px;
+        justify-content: center;
+    }
+
+    .cabecalho .menu li a {
+        font-size: 12px;
+    }
+
+    .home .informacoes {
+        padding: 5px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 22px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 13px;
+    }
+
+    .home .informacoes .lista-de-jogos {
+        max-width: 90px;
+        margin-top: 50px;
+    }
+
+    .btn-comprar,
+    .btn-plataforma {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .btn-comprar {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .compre-ja .cartao {
+        padding: 20px;
+        width: 120%;
+    }
+
+    .compre-ja .titulo {
+        font-size: 20px;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 25px;
+    }
+
+    .home .imagem-fundo {
+        background: url('./src/img/bg-main.png') no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .cabecalho {
+        padding: 5px;
+    }
+
+    .cabecalho .logo img {
+        width: 20px;
+    }
+
+    .cabecalho .logo .logo-gtav {
+        width: 120px;
+    }
+
+    .cabecalho .menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cabecalho .menu li a {
+        font-size: 11px;
+        padding: 10px;
+    }
+
+    .home .informacoes {
+        padding: 5px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 20px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 11px;
+    }
+
+    .home .informacoes .lista-de-jogos {
+        max-width: 70px;
+        margin-top: 50px;
+    }
+
+    .btn-comprar,
+    .btn-plataforma {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .btn-comprar {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .compre-ja .capa-do-jogo {
+        width: 180px;
+    }
+
+    .compre-ja .cartao {
+        padding: 20px;
+        width: 120%;
+    }
+
+    .compre-ja .titulo {
+        font-size: 20px;
+    }
+
+    .compre-ja .informacoes h3 {
+        font-size: 25px;
+    }
+
+    .home .imagem-fundo {
+        background: url('./src/img/bg-main.png') no-repeat center center;
+        background-size: cover;
+        height: 110vh;
+    }
+}
