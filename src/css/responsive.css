@@ -143,7 +143,7 @@
 
 @media (max-width: 576px) {
     .cabecalho {
-        padding: 10px;
+        padding: 18px;
         gap: 10px;
     }
 
@@ -167,7 +167,7 @@
     }
 
     .home .informacoes .lista-de-jogos {
-        margin-bottom: 150px;
+        margin-bottom: 25%;
     }
 
     .btn-comprar,
@@ -204,7 +204,7 @@
 
 @media (max-width: 450px) {
     .cabecalho {
-        padding: 5px;
+        padding: 15px;
         gap: 5px;
     }
 
@@ -232,7 +232,7 @@
     }
 
     .home .informacoes .titulo {
-        font-size: 20px;
+        font-size: 23px;
     }
 
     .home .informacoes .texto {
@@ -240,18 +240,22 @@
     }
 
     .home .informacoes .lista-de-jogos {
-        max-width: 80px;
+        max-width: 25%;
     }
 
     .btn-comprar,
     .btn-plataforma {
-        font-size: 15px;
+        font-size: 17px;
         padding: 15px;
     }
 
     .btn-comprar {
         display: block;
         margin: 0 auto;
+    }
+
+    .compre-ja .capa-do-jogo {
+        width: 190px;
     }
 
     .compre-ja .cartao {
@@ -311,7 +315,7 @@
     }
 
     .home .informacoes .lista-de-jogos {
-        max-width: 90px;
+        max-width: 25%;
         margin-top: 50px;
     }
 
@@ -324,6 +328,10 @@
     .btn-comprar {
         display: block;
         margin: 0 auto;
+    }
+
+    .compre-ja .capa-do-jogo {
+        width: 190px;
     }
 
     .compre-ja .cartao {
@@ -349,7 +357,7 @@
 
 @media (max-width: 320px) {
     .cabecalho {
-        padding: 5px;
+        padding: 10px;
     }
 
     .cabecalho .logo img {
@@ -384,7 +392,7 @@
     }
 
     .home .informacoes .lista-de-jogos {
-        max-width: 70px;
+        max-width: 25%;
         margin-top: 50px;
     }
 
